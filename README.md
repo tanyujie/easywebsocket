@@ -335,12 +335,9 @@ Welcome<br/>
 ```
 
 ####测试
-- 1.f9运行项目，项目端口是8083可以配置文件中修改
-- 2.首先在浏览器中打开地址 http://localhost:8083/ 建立连接
-- 3.访问地址 http://localhost:8083/web/socket/send?cid=20&message=hello 推送消息 cid是客户端建立连接id 也就是html中"ws://localhost:8083/web/socket/20"的id 20
+- 1.f9运行项目，项目端口是80可以配置文件中修改
+- 2.首先在浏览器中打开地址 http://localhost/ 建立连接
+- 3.访问地址 http://localhost/web/socket/send?cid=20&message=hello 推送消息 cid是客户端建立连接id 也就是html中"ws://localhost/web/socket/20"的id 20
 
-####参考资料
-* [https://www.liaoxuefeng.com/wiki/1022910821149312/1103303693824096](https://www.liaoxuefeng.com/wiki/1022910821149312/1103303693824096)
-* [https://blog.csdn.net/moshowgame/article/details/80275084](https://blog.csdn.net/moshowgame/article/details/80275084)
 
 # easywebsocket
