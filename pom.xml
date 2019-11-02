@@ -9,9 +9,9 @@
 		<version>2.1.5.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>org.easymis</groupId>
-	<artifactId>easywebsocket</artifactId>
-	<name>easywebsocket</name>
+	<groupId>org.easymis.easycompany</groupId>
+	<artifactId>search</artifactId>
+	<name>search</name>
 	<url>http://www.easymis.org</url>
 	<properties>
 		<java.version>1.8</java.version>
