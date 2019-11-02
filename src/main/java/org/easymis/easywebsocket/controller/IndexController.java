@@ -1,4 +1,4 @@
-package org.easymis.easywebsocket;
+package org.easymis.easywebsocket.controller;
 
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
