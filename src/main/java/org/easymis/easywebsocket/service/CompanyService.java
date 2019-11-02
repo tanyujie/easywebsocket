@@ -1,7 +1,0 @@
-package org.easymis.easywebsocket.service;
-
-import org.easymis.easywebsocket.entitys.mybatis.dto.Company;
-
-public interface CompanyService {
-	public Company getById(String companyId);
-}
