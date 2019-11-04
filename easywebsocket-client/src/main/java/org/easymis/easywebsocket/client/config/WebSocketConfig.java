@@ -16,7 +16,8 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Slf4j
 @Component
-public class WebSocketConfig { @Bean
+public class WebSocketConfig {
+	@Bean
     public WebSocketClient webSocketClient() {
     try {
         WebSocketClient webSocketClient = new WebSocketClient(new URI("ws://localhost:8012/web/socket/20"),new Draft_6455()) {
