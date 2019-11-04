@@ -19,7 +19,7 @@ import lombok.extern.slf4j.Slf4j;
 public class WebSocketConfig { @Bean
     public WebSocketClient webSocketClient() {
     try {
-        WebSocketClient webSocketClient = new WebSocketClient(new URI("ws://localhost:8085/websocket/test"),new Draft_6455()) {
+        WebSocketClient webSocketClient = new WebSocketClient(new URI("ws://localhost:8012/web/socket/20"),new Draft_6455()) {
             @Override
             public void onOpen(ServerHandshake handshakedata) {
                 log.info("[websocket] 连接成功");
